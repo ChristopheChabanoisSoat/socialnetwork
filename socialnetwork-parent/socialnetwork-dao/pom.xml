@@ -51,16 +51,18 @@
 		</dependency>
 		<!-- 
 		<dependency>
-			<groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
-			<artifactId>myfaces-extcdi-jpa1-module-api</artifactId>
-			<version>1.0.6-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
-			<artifactId>myfaces-extcdi-jpa1-module-impl</artifactId>
-			<version>1.0.6-SNAPSHOT</version>
-		</dependency>
-		 -->
+            <groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
+            <artifactId>myfaces-extcdi-jpa1-module-api</artifactId>
+            <version>${codi.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
+            <artifactId>myfaces-extcdi-jpa1-module-impl</artifactId>
+            <version>${codi.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+         -->
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
 			<artifactId>hibernate-jpa-2.0-api</artifactId>

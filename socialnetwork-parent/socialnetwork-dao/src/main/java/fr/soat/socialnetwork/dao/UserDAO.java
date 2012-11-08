@@ -9,8 +9,7 @@ import org.hibernate.criterion.Restrictions;
 import fr.soat.socialnetwork.dao.entity.UserDTO;
 
 public class UserDAO implements IUserDAO {
-	@Inject
-	EntityManager em;
+	@Inject	EntityManager em;
 
 	public EntityManager getEntityManager() {
 		return em;

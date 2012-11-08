@@ -1,7 +1,5 @@
 package fr.soat.socialnetwork.doa;
 
-import javax.inject.Inject;
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,7 +14,7 @@ public class UserDAOTest {
 	private final String lastName = "lastName";
 	private final String email = "guillaume.prehu@soat.fr";
 
-	@Inject
+	//@Inject
 	UserDAO dao;
 
 	@Before
